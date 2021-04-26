@@ -3,7 +3,7 @@ title: "週刊誌の動画特典ページをNext.js + Vercelで構築した話"
 emoji: "📹"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "nextjs", "vercel"]
-published: false
+published: true
 ---
 
 ## はじめに
