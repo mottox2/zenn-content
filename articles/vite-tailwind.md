@@ -1,5 +1,5 @@
 ---
-title: "Vite + Tailwind CSSでペライチHTMLマークアップ環境構築"
+title: "Vite + Tailwind CSSでペライチHTMLをマークアップする"
 emoji: "️🖊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vite", "tailwind", "tailwindcss"]
@@ -8,11 +8,11 @@ published: false
 
 ## はじめに
 
-つい最近、ReactもVueも使わずに静的なペライチHTMLのマークアップを行う必要に迫られました。その際ViteのVanilla[^1]テンプレートとTailwindを使った環境でマークアップをしたところ非常に快適だったので、簡単なメモがてら記事にしておこうと思いました。
+つい最近、ReactもVueも使わずに静的なペライチHTMLのマークアップを行う必要に迫られました。その際ViteのVanilla[^1]テンプレートとTailwindを使った環境でマークアップをしたところ非常に快適だったので、環境構築の手順を記事にしておこうと思いました。
 
 [^1]: ReactやVueといったライブラリやフレームワークを使わない状態のことをVanillaと呼んでいます
 
-### なぜViteか？
+### Viteを使う理由
 
 ViteというとVueやReactの開発ツールと思われがちですが、UIライブラリに依存しないVanillaテンプレートが用意されています。
 ファイルの更新を検知してブラウザへの反映といった基本的な機能に加えて、PostCSSのサポートもあるのでTailwindでの開発と相性が良いです。
@@ -96,3 +96,13 @@ module.exports = {
 
 `npm run build`するとデフォルトで`dist`ディレクトリにHTML、CSS、JSが生成されます。
 HTMLは静的ファイルですし、CSSもTailwind CSSで使っているスタイルのみ含まれたファイルになっています。
+
+## おわりに
+
+令和になってペライチでHTMLを書くという行為をするケースはほとんどない[^3]と思いますが、今風の開発ツールでも快適に書けるようになっています。
+自分はこの環境の上に[markuplint](https://markuplint.dev/)を使って令和時代に求められる水準でマークアップを進めました。
+
+DX(Developer Experience）の高い環境でやっていきたいところです。
+
+[^3]: ノーコードツールを使えるなら使ったほうがいいです。
+
