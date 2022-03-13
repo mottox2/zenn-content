@@ -3,7 +3,7 @@ title: "Vite + Tailwind CSSでペライチHTMLをマークアップする"
 emoji: "️🖊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vite", "tailwind", "tailwindcss"]
-published: false
+published: true
 ---
 
 ## はじめに
