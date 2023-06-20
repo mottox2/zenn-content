@@ -14,6 +14,8 @@ styled-componentsやemotionといった CSS in JSライブラリによるスタ�
 一言でいうと、カスタマイズ性が高く、使いやすいUIコンポーネント集です。
 本記事では、`@shadcn/ui`がどのようなものなのか、どういうメリットがあるのかを見ていきます。
 
+![](https://ui.shadcn.com/og.jpg)
+
 ただしTailwind CSSが好きじゃない方にはNot for youな可能性が高いです。
 
 ## `@shadcn/ui`とは？
