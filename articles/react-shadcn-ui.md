@@ -2,7 +2,7 @@
 title: "ReactのUIコンポーネントなら@shadcn/uiがちょうどいい"
 emoji: "🎨"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["react", "tailwind", "javascript", "shadcn"]
+topics: ["react", "tailwind", "javascript", "shadcn", "radix"]
 published: true
 ---
 
