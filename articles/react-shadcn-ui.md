@@ -14,7 +14,7 @@ styled-componentsやemotionといった CSS in JSライブラリによるスタ�
 一言でいうと、カスタマイズ性が高く、使いやすいUIコンポーネント集です。
 本記事では、`@shadcn/ui`がどのようなものなのか、どういうメリットがあるのかを見ていきます。
 
-ただし「Tailwind CSSが好きじゃない」という方にはNot for youな可能性が高いです。
+ただしTailwind CSSが好きじゃない方にはNot for youな可能性が高いです。
 
 ## `@shadcn/ui`とは？
 
@@ -170,4 +170,4 @@ Tailwindの作法でカスタマイズする必要がありますが、Tailwind�
 
 ### 余談: CSS in JSの動向にも要注目？
 React Server Componentの登場で一気にCSS in JS離脱の動きが強くなりTailwindやCSS Modulesに人口が戻ってきた気がします。
-その一方でChakra UIの[Panda CSS](https://panda-css.com/)や国産の[Kuma UI](https://www.kuma-ui.com/)などランタイムではなくビルド時になんとかするようなアプローチが使われ始めています。これらはCSS in JSの開発体験をもってるRSCでも動くので、Tailwindが合わない人はこういった動きを追っておくといいかもしれません。
+その一方でChakra UIの[Panda CSS](https://panda-css.com/)や国産の[Kuma UI](https://www.kuma-ui.com/)などランタイムではなくビルド時になんとかするようなアプローチが使われ始めています。これらはCSS in JSの開発体験をもちつつもRSCでも動くので、Tailwindが合わない人はこういった動きを追っておくといいかもしれません。
