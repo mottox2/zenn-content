@@ -3,7 +3,7 @@ title: "ReactのUIコンポーネントなら@shadcn/uiがちょうどいい"
 emoji: "🎨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "tailwind", "javascript", "shadcn"]
-published: false
+published: true
 ---
 
 Reactでは様々なスタイリングの手法があり、その上に構築されるコンポーネント実装も多くの選択肢があります。
